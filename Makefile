@@ -73,11 +73,11 @@ MFTNFLAGS	= -log
 # User supplied flags for C & Fortran compilers
 # -----------------------------------
 
-CC		= icc 	# icc   for Intel cc for Gnu
+CC		= gcc 	# icc   for Intel cc for Gnu
 FC		= ifort	# ifort for Intel f77 for Gnu
 #LD		= ifort	-nofor_main # for mixed C and Fortran, main in C
 #LD		= ifort	# for Fortran or C/Fortran mixed, main in Fortran
-LD		= icc	# for C codes
+LD		= gcc	# for C codes
 
 CFLAGS 		= 
 FFLAGS		= 
